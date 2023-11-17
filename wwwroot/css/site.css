@@ -1,0 +1,35 @@
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+h1{
+    text-align: center;
+}
+.container{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+ background-color:lightyellow;
+}
+.display{
+  background-color: lightblue;
+  pointer-events: none;
+  text-align: right;
+}
+.operators{
+  margin-top: 20px;
+}
+
+}

@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcualtor</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+
+
+<div class="mainContainer">
+    <div>
+        <input type="text" class="display" value="@ViewData["display"]" placeholder="0"></div>
+    <form action="" method="post">
+        <input type="text" name="value1" placeholder="Enter num1">
+        <input type="text" name="value2" placeholder="Enter num2">
+        <div class="operators">
+        <button type="submit" name="operation" value="AC">AC</button>
+         <button type="submit" name="operation" value="add">+</button>
+        <button type="submit" name="operation" value="subtract">-</button>
+         <button type="submit" name="operation" value="multiply">*</button>
+        <button type="submit" name="operation" value="power">power</button>
+        <button type="submit" name="operation" value="square">square</button>
+         <button type="submit" name="operation" value="cube">cube</button>
+
+        </div>
+
+    </form> 
+</body>
+</div>
+
+</html>
